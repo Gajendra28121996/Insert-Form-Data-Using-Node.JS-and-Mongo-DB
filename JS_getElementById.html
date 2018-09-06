@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>HTML and JS Code</title>
+</head>
+   <body>
+      <script type="text/javascript">
+	function display()
+		{
+			let c="</br>"
+			let a=document.getElementById("txt1").value;
+			let b=document.getElementById("txt2").value;
+			document.write("First Name :  ");
+			document.write(a);
+			document.write(c);
+			document.write("Last Name :  ");
+			document.write(b);
+		}
+	
+      </script>
+	<h2>JavaScript for Dispalying Input Values from Text Boxes </h2>
+	<br><br>
+	<lable>First Name</lable>
+	<input type="text" id="txt1" value="">
+	<lable>Last Name</lable>	
+	<input type="text" id="txt2" value="">
+	<input type="button" id="btn1" value="Click to Display Inserted Value !" 		onClick="display()">     
+	<br>
+	<br>
+	<h4>Return Result on Clicking Button</h4>	
+   </body>
+</html>
